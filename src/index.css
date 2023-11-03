@@ -14,7 +14,7 @@
 
 body{
     font-family: "Roboto", sans-serif;   
-    background-color: #d8dba7;
+    background-color: #010101;
 }
 
 .container{
@@ -25,6 +25,13 @@ body{
 .flexSB{
     display: flex;
     justify-content: space-between;
+    
+}
+
+.logo{
+    font-size: 20px;
+    color: #fff;
+    opacity: 1;
 }
 
 .icon{
@@ -33,17 +40,105 @@ body{
     line-height: 40px;
     border-radius: 50%;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.3);
-    color: #1eb2a6;
+    background-color: rgba(255, 255, 255, 0.83);
+    /* color: #1eb2a6; */
     transition: 0.5s;
 }
 
 .icon:hover{
     cursor: pointer;
-    background-color: #1eb2a6;
+    background-color: #80d1b3;
     color: #fff;
 }
 
+.start{
+    padding: 30px 70px;
+    background-color: #80d1b3;
+    color: #fff;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+    
+}
 
+.toggle{
+    display: none;
+}
 
+.row{
+    width: 50%;
+    text-align: left;
+    padding: 40px;
+}
+
+.row h1{
+    font-size: 45px;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.row h2{
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #80d1b3;
+    text-transform: uppercase;
+}
+
+.row p{
+    line-height: 30px;
+    font-size: 18px;
+}
+@media screen and (max-width:868px) {
+    .start{
+        clip-path: none;
+        /* background-color: yellow; */
+    }
+
+    header{
+        margin: 0;
+        background-color: #80d1b3;
+        position: relative;
+    }
+    
+    .header ul.flexSB{
+        display: none;
+    }
+
+    .header ul li{
+        margin-bottom: 20px;
+
+    }
+
+    button{
+        border: none;
+    }
+
+    .header ul li{
+        margin-bottom: 20px;
+    }
+
+    .toggle{
+        display: block;
+        /* background-color: blue; */
+        color: #fff;
+        font-size: 50px;
+        position: relative;
+        right: 20px;
+        top: 0;
+    }
+    .container-menu{
+        display: flex;
+        justify-content: space-between;
+        /* background-color: bisque; */
+        align-items: center;
+        width: 100%;
+    }
+
+    .mobile-nav{
+        position: absolute;
+        /* top: 7vh; */
+        left: 0;
+        width: 100%;
+        background-color: #80d1b3;
+    }
+    
+}
 
