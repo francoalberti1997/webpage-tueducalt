@@ -16,7 +16,7 @@ const Hero = () => {
                     Best English Courses
                 </h2>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic debitis, sapiente quod, numquam praesentium similique eligendi nisi asperiores delectus reiciendis, in culpa nihil iure! Commodi architecto ea delectus officia voluptate?
+                Nuestros Cursos Conversacionales son la clave para mejorar tus habilidades en inglés de manera práctica y dinámica. Nos enfocamos en la comunicación oral, brindándote la confianza necesaria para hablar en situaciones reales. Nuestros instructores altamente calificados te guiarán en un viaje de aprendizaje único, donde te sumergirás en conversaciones auténticas y adquirirás fluidez en inglés. Únete a nosotros y comienza a hablar inglés con confianza.
                 </p>
                 </div>
             <div className="button">
