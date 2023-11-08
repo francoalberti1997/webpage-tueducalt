@@ -13,7 +13,7 @@ import Header from './components/common/heading/Header';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Cursos from './components/cursos/Cursos';
-
+import img_l from "../src/logo_low.png"
 
 
 const App = () => {
