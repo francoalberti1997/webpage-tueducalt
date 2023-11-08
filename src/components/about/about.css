@@ -8,7 +8,7 @@
     left: 0;
     z-index: -1;
     width: 70%;
-    height: 100vh;
+    height: 100%;
     /* padding-top: 180px; */
     padding-right: 0;
     color: #ffff;
@@ -29,12 +29,13 @@
     margin: 120px auto;
     font-family: 'Trebuchet MS', sans-serif;
     position: relative;
+    /* overflow-y: hidden; */
 }
 
 .heading h1{
     font-size: 50px;
     color: #fff;
-    margin-top: 520px;
+    margin-top: 220px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.63);
 
@@ -145,7 +146,29 @@
     margin: 0 auto;
     background-color: #80d1b3;
 }
+@media screen and (max-width:480px) {
+    .heading h1{
+        font-size: 50px;
+        color: #fff;
+        margin-top: 720px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.63);
+    
+    
+    }
 
+}
 
+@media screen and (max-height:650px) {
+    .heading h1{
+        font-size: 50px;
+        color: #fff;
+        margin-top: 920px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.63);
+    
+    
+    }
 
+}
 

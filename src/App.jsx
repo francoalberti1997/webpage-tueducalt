@@ -12,6 +12,7 @@ import {
 import Header from './components/common/heading/Header';
 import Home from './components/home/Home';
 import About from './components/about/About';
+import Cursos from './components/cursos/Cursos';
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
             <Switch>
               <Route path="/" exact component= {Home}/>
               <Route path="/about" exact component= {About}/>
+              <Route path="/courses" exact component= {Cursos}/>
             </Switch>
         </Router>
       );

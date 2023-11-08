@@ -19,12 +19,13 @@ const Hero = () => {
                 Nuestros Cursos Conversacionales son la clave para mejorar tus habilidades en inglés de manera práctica y dinámica. Nos enfocamos en la comunicación oral, brindándote la confianza necesaria para hablar en situaciones reales. Nuestros instructores altamente calificados te guiarán en un viaje de aprendizaje único, donde te sumergirás en conversaciones auténticas y adquirirás fluidez en inglés. Únete a nosotros y comienza a hablar inglés con confianza.
                 </p>
                 </div>
+                
             <div className="button">
                 <button className='primary-btn'>
-                    Get Started <i className='fa fa-long-arrow-alt-right'></i>
+                <a class="whats-app" href="https://wa.me/+541166391419?text=¡Hola! Me gustaría obtener más información." target="" id="wsp">Coordinar Clase de Prueba</a><i className='fa fa-long-arrow-alt-right'></i>
                 </button>
                 <button className='secondary-btn'>
-                    View Courses <i className='fa fa-long-arrow-alt-right'></i>
+                    <a href="/cursos">Ver Cursos</a> <i className='fa fa-long-arrow-alt-right'></i>
                 </button>
             </div>
             </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import "../about/about.css"
 import img1 from "../about/pregrabado.jpg"
 import img2 from "../about/picture.jpg"
+import img3 from "../about/sodapdf-converted.png"
 
 const About = () => {
   return (
