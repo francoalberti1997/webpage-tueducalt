@@ -16,7 +16,6 @@ const Header = () => {
             <li><Link to ="/">Home</Link></li>
             <li><Link to ="/courses">All Courses</Link></li>
             <li><Link to ="/About">About</Link></li>
-            <li><Link to ="/Contact">Contact</Link></li>
           </ul>
 
           <div className='container-menu'>
