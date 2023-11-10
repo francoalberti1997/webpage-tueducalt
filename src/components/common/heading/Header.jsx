@@ -32,6 +32,10 @@ const Header = () => {
           </div>
           
         </nav>
+
+        <div className="logo-wsp">
+        <a class="whats-app" href="https://wa.me/+541166391419?text=¡Hola! Me gustaría obtener más información." target="" id="wsp"><i className="fab fa-whatsapp icon"></i></a>
+        </div>
     </div>
   )
 }
