@@ -24,15 +24,16 @@ const Hero = () => {
                 <button className='primary-btn'>
                 <a class="whats-app" href="https://wa.me/+541166391419?text=¡Hola! Me gustaría obtener más información." target="" id="wsp">Coordinar Clase de Prueba</a><i className='fa fa-long-arrow-alt-right'></i>
                 </button>
+
                 <button className='secondary-btn'>
                     <a href="/cursos">Ver Cursos</a> <i className='fa fa-long-arrow-alt-right'></i>
                 </button>
             </div>
+
             </div>
         </div>
       </section>
-      <div className="margin">
-
+      <div className="margin">  
       </div>
     </>
   )
