@@ -8,8 +8,8 @@ const Head = () => {
             <div className="container flexSB flex">
              
                 <div className="logo">
-                    <h1>Tu Educación Alternativa</h1>
-                    <span>Online English Courses</span>
+                    <img src={img1} alt="" />
+                    <h2>Online English Courses</h2>
                 </div>
    
             <div className="social">

@@ -3,10 +3,26 @@
     color: #000;
 }
 
-.logo h1{
-    font-size: 35px;
+.logo{
+    display: flex;
+    width:65%; 
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo h2{
+    font-size: 40px;
+}
+
+.logo img{
+    height: 125px;
+    width: 125px;
     color: #ffff;
-    font-weight: 900;
+    border-radius: 85px;
+    opacity: 0.9;
+    /* font-weight: 900; */
 }
 
 .head .icon{
@@ -63,3 +79,23 @@ nav{
     color: #fff;
 }
 
+@media screen and (max-width:868px) {
+    .logo h2{
+        font-size: 25px;
+        position: relative;
+        margin-left: 12px;
+    }
+
+    .logo{
+        width: 70%;
+        /* background-color: red; */
+        justify-content: space-between;
+    }
+        }
+
+@media screen and (max-width:480px) {
+    .logo h2{
+        font-size: 20px;
+    }
+
+        }
