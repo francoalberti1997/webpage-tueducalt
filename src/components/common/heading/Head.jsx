@@ -7,9 +7,15 @@ const Head = () => {
         <section className='head'>
             <div className="container flexSB flex">
              
+<<<<<<< HEAD
                 <div className="logo">  
                     <h1>Tu Educación Alternativa</h1>
                     <span>Online English Courses</span>
+=======
+                <div className="logo">
+                    <img src={img1} alt="" />
+                    <h2>Online English Courses</h2>
+>>>>>>> new_one
                 </div>
    
             <div className="social">
