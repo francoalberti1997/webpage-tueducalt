@@ -97,5 +97,8 @@ nav{
     .logo h2{
         font-size: 20px;
     }
+    .social{
+       display: none;
+    }
 
         }
