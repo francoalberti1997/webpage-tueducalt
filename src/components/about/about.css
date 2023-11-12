@@ -1,174 +1,196 @@
-.about{
-    background-image: url("../about/liberty.jpg");
-    /* background-color: red; */
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 70%;
-    height: 100%;
-    /* padding-top: 180px; */
-    padding-right: 0;
-    color: #ffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 120px auto;
-}
-
-.heading{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 120px auto;
-    font-family: 'Trebuchet MS', sans-serif;
-    position: relative;
-    /* overflow-y: hidden; */
-}
-
-.heading h1{
-    font-size: 50px;
-    color: #fff;
-    margin-top: 220px;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.63);
-
-}
-
-.heading h1::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 8px;
-    display: block;
-    margin: 0 auto;
-    background-color: #80d1b3;
-}
-
-.heading p{
-    font-size: 35px;
-    color: #fff;
-    margin-bottom: 35px;
-    background-color: #131313;
-    opacity: 0.8;
-    position: relative;
-}
-
-.heading p::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    height: 8px;
-    display: block;
-    margin: 0 auto;
-    background-color: #80d1b3;
-}
-
-.about .container{
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px 20px;
-    
-}
-
-.container-about{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.about-image{
-    flex: 1;
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
     overflow: hidden;
+    padding-bottom: 40px;
 }
 
-.about-image img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.about-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.titulo-img{
+    position: relative;
+    background-color: #ffffff69;
     text-align: center;
-}
-
-.about-content h2{
-    text-align: center;
-    font-size: 23px;
-    margin-bottom: 15px;
+    width: 50%;
+    border-radius: 15px;
     color: #fff;
-    background-color: #80d1b3;
-    opacity: 0.89;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.about-content p{
-    font-size: 18px;
-    line-height: 1.5;
-    color: #131313;
-    background-color: #fff;
-    opacity: 0.8;
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg, transparent, #80d1b3, transparent
+
+    );
+    display: grid;
+    place-items: center;
+    margin-top: 35px;
+    height: 80%;
 }
-.about-img{
+
+.about__me-image{
+    border-radius: 2rem;
+    overflow-y: hidden;
+    transition: 0.5s ease;
+    position: relative; /* Asegúrate de que el contenedor sea un elemento posicionado */
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.about-content img{
-    margin: 25px;
-    position: relative;
-    width: 300px;
-    height: 400px;
+
+.about__me-image img{
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    aspect-ratio: 1/1.1;
+    object-fit: contain; /* Ajusta el tamaño de la imagen manteniendo su relación de aspecto y cubriendo completamente el contenedor */
+    opacity: 1;
+    height: 90%;
 }
 
-.about-img h3{
+.about__me-image:hover{
+    padding: 5px;
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.0rem;
+}
+
+.about__card{
+    background: #80d1b3;
+    /* aspect-ratio: 1/1; */
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    border: outset  #fff;
+    text-align: center;
+    color: #ffff;
+    opacity: 1;
+}
+
+.about__card:hover{
+    background: transparent;
+}
+
+.about__icon{
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5{
+    font-size: 1.2rem;
+}
+
+.about__card small{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #1313;
+    font-size: 0.7rem;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.about__content p{
+    margin: 2rem 0 2.6rem;
+    color: black;
+}
+
+.about__content p{
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about__content h2 {
+    position: relative; /* Asegúrate de que el h2 sea un elemento posicionado */
+    z-index: 10;
+    opacity: 1;
+    padding: 5px;
+    /* width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #fff; */
+}
+
+#about h1{
+    font-size: 45px;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+#about h2{
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #80d1b3;
+    text-transform: uppercase;
+}
+
+#about p{
+    line-height: 30px;
     font-size: 18px;
-    position: relative;
 }
-.about-img h3::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 8px;
-    display: block;
-    margin: 0 auto;
-    background-color: #80d1b3;
-}
-@media screen and (max-width:480px) {
-    .heading h1{
-        font-size: 50px;
-        color: #fff;
-        margin-top: 720px;
-        position: relative;
-        background-color: rgba(0, 0, 0, 0.63);
-    
-    
+
+@media screen and (max-width:1147px) {
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
     }
 
+    .about__content p{
+        margin: 1rem 0 1.5rem;
+
+    }
 }
 
-@media screen and (max-height:650px) {
-    .heading h1{
-        font-size: 50px;
-        color: #fff;
-        margin-top: 920px;
-        position: relative;
-        background-color: rgba(0, 0, 0, 0.63);
-    
-    
+@media screen and (max-width:600px) {
+   .about__me{
+    width: 65%;
+    margin: 0 auto 3rem;
+    height: 100%;
+   }
+
+   .about__cards{
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+   }
+   
+   .about__content{
+    text-align: center;
+    margin-top: 10px;
+   }
+
+   .about__content p{
+    margin: 1.5rem 0;
+   }
+
+   
+}
+
+
+@media screen and (max-width:400px) {
+    .about__cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin: auto; /* Esto centrará la cuadrícula horizontalmente */
+
+    }
+    .about__cards{
+        width: 200px; 
     }
 
-}
-
+    
+ }
