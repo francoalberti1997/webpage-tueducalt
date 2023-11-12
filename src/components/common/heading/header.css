@@ -52,11 +52,13 @@ nav{
 .header ul li a{
     color: #fff;
     font-weight: 500;
-    transition: 0.5s;
+    transition: 0.1s;
 }
 
 .header ul li a:hover{
-    color: #80d1b3;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .logo-wsp{

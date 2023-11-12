@@ -8,8 +8,6 @@ import "../about/about.css"
 const About = () => {
   return (
     <section id='about' className='bg-black'>
- 
-
         <div className="container about__container">
             <div className="about__me">
                 <div className="about__me-image">
