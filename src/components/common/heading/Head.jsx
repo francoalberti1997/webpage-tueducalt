@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from "../heading/logo.jpg"
+import "../heading/header.css"
 
 const Head = () => {
   return (

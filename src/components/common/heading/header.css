@@ -61,9 +61,9 @@ nav{
 
 .logo-wsp{
     position: fixed;
-    top: 80%;
+    top: 85%;
     right: 5%;
-    padding: 20px;
+    padding: 10px;
     border-radius: 100%;
     background-color: rgb(144, 212, 42);
     display: flex;
@@ -72,11 +72,15 @@ nav{
 }
 
 .logo-wsp i{
-    font-size: 60px;
-    margin-right: 10px;
+    font-size: 45px;
+    margin-right: 0;
     margin-top: 5px;
     background-color: rgb(144, 212, 42);
     color: #fff;
+}
+
+.social{
+    display: flex;
 }
 
 @media screen and (max-width:868px) {
@@ -91,11 +95,17 @@ nav{
         /* background-color: red; */
         justify-content: space-between;
     }
+
+    .social{
+       margin-left: 125px;
+    }
         }
 
 @media screen and (max-width:480px) {
     .logo h2{
         font-size: 20px;
     }
-
+    .social{
+        display: none;
+     }
         }

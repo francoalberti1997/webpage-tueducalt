@@ -125,7 +125,6 @@ body{
     margin-top: 20px;
 }
 
-
 @media screen and (max-width:868px) {
     .start{
         clip-path: none;
