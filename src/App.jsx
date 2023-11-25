@@ -22,8 +22,9 @@ const App = () => {
             <Header />
             <Switch>
               <Route path="/" exact component= {Home}/>
-              <Route path="/about" exact component= {About}/>
-              <Route path="/courses" exact component= {Cursos}/>
+              <Route path="/Nosotros" exact component= {About}/>
+              <Route path="/Cursos" exact component= {Cursos}/>
+              <Route path="/Contacto" exact component= {Cursos}/>
             </Switch>
         </Router>
       );
